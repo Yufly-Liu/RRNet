@@ -34,5 +34,7 @@ db.sqlite3
 Thumbs.db
 
 #数据
-datasets/
+datasets/FakeGT/
+datasets/Interreflection/
+datasets/InterreflectionRemoval/
 checkpoints/
