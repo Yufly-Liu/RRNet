@@ -1,0 +1,40 @@
+# Python 编译文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# 虚拟环境（最常见几种）
+venv/
+env/
+.venv/
+ENV/
+
+# 环境变量文件（重要！别上传密钥）
+.env
+.env.local
+
+# 依赖包
+node_modules/  # 有些项目混用前端
+dist/
+build/
+
+# 日志和数据库
+*.log
+*.sqlite3
+db.sqlite3
+
+# IDE 和系统文件
+.vscode/settings.json
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+#数据
+datasets/FakeGT/
+datasets/Interreflection/
+datasets/InterreflectionRemoval/
+checkpoints/
